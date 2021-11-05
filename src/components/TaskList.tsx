@@ -26,6 +26,7 @@ export function TaskList() {
       };
       listTasks.push(task);
       setTasks(listTasks);
+      setNewTaskTitle("")
     }
   }
 
